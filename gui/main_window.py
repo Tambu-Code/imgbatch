@@ -26,6 +26,9 @@ class MainWindow(QMainWindow):
         central = QWidget()
         layout = QVBoxLayout()
 
+        layout.setSpacing(12)
+        layout.setContentsMargins(24, 24, 24, 24)
+
         # Profili
         profile_row = QHBoxLayout()
         self.profile_combo = QComboBox()
