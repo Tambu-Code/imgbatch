@@ -4,6 +4,10 @@ Programma per Windows con interfaccia grafica per elaborare molte immagini in un
 
 ![Schermata di ImgBatch](screenshot.png)
 
+## Download
+
+Scarica l'ultima versione per Windows dalla pagina [Releases](https://github.com/Tambu-Code/imgbatch/releases/latest): basta il file `ImgBatch.exe`, non serve installare Python.
+
 ## Funzioni
 
 - Ridimensionamento con o senza mantenimento delle proporzioni
@@ -14,12 +18,12 @@ Programma per Windows con interfaccia grafica per elaborare molte immagini in un
 - Elaborazione in background con barra di avanzamento
 - Profili salvabili per riutilizzare le impostazioni (es. "web", "Instagram")
 
-## Requisiti
+## Requisiti (per eseguire dal codice)
 
 - Python 3.9 o superiore
 - PyQt6 e Pillow (vedi `requirements.txt`)
 
-## Installazione
+## Installazione dal codice sorgente
 
 ```powershell
 git clone https://github.com/Tambu-Code/imgbatch.git
